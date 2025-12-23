@@ -395,11 +395,12 @@ footer{
 .searchBar{
     display: flex;
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 480px){
     html, body{
         width: 100%;
         height: auto;
         font-size: 14px
+        overflow: auto;
     }
 
     .box{
@@ -475,6 +476,10 @@ footer{
         justify-content: space-between;
         align-items: center;
     }
+
+    .dropBox{
+        width: 100%;
+    }
 }
 
 
@@ -482,6 +487,7 @@ footer{
     html, body{
         width: 100%;
         height: auto;
+        overflow: auto;
     }
 
     .menu li:last-child{
@@ -501,6 +507,10 @@ footer{
         align-items: center;
         justify-content: center;
         padding-left: 5%;
+    }
+
+    .dropBox{
+        width: 100%;
     }
 
     input{
@@ -539,6 +549,7 @@ footer{
     html, body{
         width: 100%;
         height: auto;
+        overflow: auto;
     }
 
     .menu li:last-child{
@@ -551,6 +562,10 @@ footer{
 
     .product h2, .product ul{
         display: none;
+    }
+
+    .dropBox{
+        width: 100%;
     }
 
     #flow .searchbox{
@@ -596,6 +611,11 @@ footer{
     html, body{
         width: 100%;
         height: auto;
+        overflow: auto;
+    }
+
+    .dropBox{
+        width: 100%;
     }
 }
 
@@ -603,6 +623,7 @@ footer{
     html, body{
         width: 100%;
         height: auto;
+        overflow: auto;
     }
 } 
 
@@ -610,9 +631,11 @@ footer{
     html, body{
         width: 100%;
         height: auto;
+        overflow: auto;
     }
 
 }
+
 
 
 
