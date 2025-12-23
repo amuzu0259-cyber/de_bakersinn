@@ -448,7 +448,7 @@ footer{
 
     .produce{
         width: 130px;
-        height: 210px;
+        height: 250px;
     }
 
     .produce h3{
@@ -462,12 +462,18 @@ footer{
     .foot{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
     }
 
     .foot #three p{
         font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
@@ -607,5 +613,6 @@ footer{
     }
 
 }
+
 
 
