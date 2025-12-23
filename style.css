@@ -451,6 +451,10 @@ footer{
         height: 210px;
     }
 
+    .produce h3{
+        font-size: 12px;
+    }
+
     footer{
         width: 100%;
     }
@@ -458,12 +462,12 @@ footer{
     .foot{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
-    .foot #three{
-        width: 190px;
+    .foot #three p{
+        font-size: 12px;
     }
 }
 
@@ -603,4 +607,5 @@ footer{
     }
 
 }
+
 
