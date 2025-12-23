@@ -421,7 +421,7 @@ footer{
     }
 
     .searchbox input{
-        width: 300px;
+        width: 80%;
     }
 
     #smile{
@@ -514,7 +514,7 @@ footer{
     }
 
     input{
-        width: 400px;
+        width: 80%;
     }
 
     #smile{
@@ -576,7 +576,7 @@ footer{
     }
 
     input{
-        width: 600px;
+        width: 80%;
     }
 
     #smile{
@@ -635,6 +635,7 @@ footer{
     }
 
 }
+
 
 
 
