@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contact</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="box">
+            <header>
+                <div class="navbar">
+                        <h2 class="logo">De BAKERS INN<span><sup>&reg;</sup></span></h2>
+                    <nav class="nav">
+                        <div class="menu">
+                            <ul class="nav-links">
+                                <li id="pull"><a href="index.html" class="current">HOME</a></li>
+                                <li id="pull"><a href="about.html">ABOUT</a></li>
+                                <li id="pull"><a href="contact.html">CONTACT</a></li>
+                                <li onclick = showSidebar()><a href="#"><img src="hamburger.png" width="28px" height="28px" alt="" class="imgc"></a></li>
+                            </ul>
+                        </div>
+                            <ul class="dropBox">
+                                <li onclick = hideSidebar()><a href="#"><img src="close.png" width="28px" height="28px" alt="" class="imgb"></a></li>
+                                <h3>Menu</h3>
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="about.html">ABOUT</a></li>
+                                <li><a href="contact.html">CONTACT</a></li>
+                                <h3>Products</h3>
+                                <li><a href="cakes.html">Cakes</a></li>
+                                <li><a href="pastries.html">Pastries</a></li>
+                                <li class="current"><a href="drinks.html">Drinks</a></li>
+                            </ul>
+                    </nav>
+                </div>
+            </header>
+                    <div class="product">
+                            <h2>Products</h2>
+                            <ul>
+                                <li><a href="cakes.html">Cakes</a></li>
+                                <li><a href="pastries.html">Pastries</a></li>
+                                <li class="current"><a href="drinks.html">Drinks</a></li>
+                            </ul>
+                            <form id="flow" action="">
+                                <div class="searchbox">
+                                    <img src="search.png" width="28px" height="28px" class="imga">&ensp;
+                                    <input onkeyup=search() type="text" id="searchInput" placeholder="Find a product...">
+                                </div>
+                            </form>
+                    </div>
+            <section id="smile">
+                <div class="product-list">
+                    <div class="produce">
+                        <img src="drinks.png" alt="">
+                        <h3>Sobolo and fruit juice</h3>
+                    </div>
+                    <div class="produce">
+                        <img src="sobolo.jpg" alt="">
+                        <h3>Sobolo</h3>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="foot">
+                    <p id="one"><span>#</span>Baking with you in mind</p>
+                </div>
+                <div class="foot">
+                    <p id="two">Copyright&copy; <span>2025</span></p>
+                </div>
+                <div class="foot">
+                    <p id="three">Design: SAKTEX Graphics and Web design services</p>
+                </div>
+            </footer>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
