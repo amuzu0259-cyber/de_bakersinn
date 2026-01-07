@@ -403,6 +403,16 @@ footer{
         overflow: auto;
     }
 
+    .home h1{
+        font-size: 18px;
+        padding-top: 100px;
+    }
+
+    .home p{
+        font-size: 14px;
+        padding-top: 100px;
+    }
+
     .box{
         width: 100%;
         height: auto;
@@ -490,6 +500,16 @@ footer{
         overflow: auto;
     }
 
+    .home h1{
+        font-size: 18px;
+        padding-top: 100px;
+    }
+
+    .home p{
+        font-size: 14px;
+        padding-top: 100px;
+    }
+
     .menu li:last-child{
         display: flex;
     }
@@ -550,6 +570,16 @@ footer{
         width: 100%;
         height: auto;
         overflow: auto;
+    }
+
+    .home h1{
+        font-size: 18px;
+        padding-top: 100px;
+    }
+
+    .home p{
+        font-size: 14px;
+        padding-top: 100px;
     }
 
     .menu li:last-child{
@@ -635,6 +665,7 @@ footer{
     }
 
 }
+
 
 
 
