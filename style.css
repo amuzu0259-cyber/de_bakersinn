@@ -411,6 +411,7 @@ footer{
     .home p{
         font-size: 14px;
         padding-top: 100px;
+        padding-bottom: 50px;
     }
 
     .box{
@@ -508,6 +509,7 @@ footer{
     .home p{
         font-size: 14px;
         padding-top: 100px;
+        padding-bottom: 50px;
     }
 
     .menu li:last-child{
@@ -580,6 +582,7 @@ footer{
     .home p{
         font-size: 14px;
         padding-top: 100px;
+        padding-bottom: 50px;
     }
 
     .menu li:last-child{
@@ -665,6 +668,7 @@ footer{
     }
 
 }
+
 
 
 
